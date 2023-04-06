@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .containar{
+            margin: 0 auto;
+            border: solid 2px;
+        }
+        .col50{
+            width: 100%;
+            border: solid 2px green;
+        }
+        .col30{
+            width: 100%;
+            border: solid 2px red;
+        }
+        .col20{
+            width: 100%;
+            border: solid 2px blue;
+        }
+        .raw{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media (min-width:576px)
+        {
+            .col50{
+                width: 100%;
+            }
+            .col30{
+                width: 100%;
+            }
+            .col20{
+                width: 100%;
+            }
+            .containar{
+                width: 100%;
+            }
+        }
+        @media (min-width:768PX)
+        {
+            .col50{
+                width: 50%;
+            }
+            .col30{
+                width: 50%;
+            }
+            .col20{
+                width: 50%;
+            }
+            .containar{
+                width: 720px;
+            }
+        }
+        @media (min-width:992PX)
+        {
+            .col50{
+                width: 33%;
+            }
+            .col30{
+                width: 33%;
+            }
+            .col20{
+                width: 33%;
+            }
+            .containar{
+                width: 960px;
+            }
+        }
+        @media (min-width:1200PX)
+        {
+            .col50{
+                width: 25%
+            }
+            .col30{
+                width: 50%;
+            }
+            .col20{
+                width: 100%
+            }
+            .containar{
+                width: 1140px;
+            }
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    
+
+    <section>
+        <div class="containar">
+            <div class="raw">
+                <div class="col50">col50</div>
+                <div class="col50">col50</div>
+                <div class="col50">col50</div>
+                <div class="col50">col50</div>
+                <div class="col50">col50</div>
+                <div class="col50">col50</div>
+                <div class="col50">col50</div>
+                <div class="col50">col50</div>
+            </div>
+
+             <div class="raw">
+
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+                <div class="col30">col30</div>
+            </div>
+
+            <div class="raw">
+                <div class="col20">col20</div>
+                <div class="col20">col20</div>
+                <div class="col20">col20</div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
