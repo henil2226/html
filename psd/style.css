@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    background-color: #fcc302;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: solid 2px; */
+}
+.tophead{
+    background-color: #daab00c0;
+    padding: 20px;
+    
+}
+/* nav{
+    padding: 20px;
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jcs{
+    justify-content: space-around;
+}
+.jsc{
+    justify-content: space-between;
+}
+.link li{
+    display: inline;
+    font-size: 25px;
+    margin: 0 10px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+input{
+    width: 120px;
+    background-color: #fcc302;
+    padding: 8px;
+    border: none;
+}
+.searchicon{
+    padding: 21px;
+    background-color: #00bec9;
+}
+.col5{
+    width: 100%;
+}
+.col5 h1{
+    font-size: 67px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 28px 0;
+    /* width: 159% */
+}
+.col5 h2{
+    font-size: 29px;
+    margin: 28px 0;
+    /* width: 140%; */
+}
+button{
+    padding: 10px;
+    border: none;
+    margin: 5px;
+}
+.b1{
+    border-radius: 7px;
+    background-color: #00bec9;
+    color: white;
+}
+.b2{
+    border-radius: 7px;
+    background-color: transparent;
+    border: solid 1px;
+    color: white;
+}
+.col5{
+    margin: 94px 0;
+}
+.col5 img{
+    width: 65%;
+    margin: 0 0 0 60px
+}
+.col50{
+    width: 100%;
+    padding: 100px 10px;
+}
+.sec2{
+    background-color: white;
+}
+.col50 h4{
+
+    font-size: 50px;
+ color: #313243;
+ font-weight: 600;
+ font-family: "Poppins";
+
+}
+.col50 h5{
+    font-size: 29px;
+ letter-spacing: 0px;
+ color: #313243;
+ font-weight: 400;
+ font-family: "Poppins";
+ margin: 50px 0;
+ width: 77%;
+}
+.col50 button{
+    
+border-radius: 7px;
+background-color: #fcc302;
+padding: 11px 21px;
+font-size: 21px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+}
+.box{
+    width: 252px;
+height: 206px;
+background-color: #fcc302;
+bottom: 155px;
+left: -27px;
+}
+.pore{
+    position: relative;
+}
+.poab{
+    position: absolute;
+}
+.vicon img{
+    left: 210px;
+    bottom: 287px;
+}
+.text h4{
+    font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Poppins";
+text-align: center;
+padding: 100px 0 50px 0;
+
+}
+.text h5{
+    font-size: 33px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+margin: 0 auto;
+width: 51%;
+padding: 0 0 100px 0;
+}
+.col30{
+    width: 100%;
+    margin: 50px 0 100px 0;
+}
+.col30 h4{
+    font-size: 38px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+text-align: center;
+margin: 20px 0;
+}
+.col30 h5{
+    font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+width: 77%;
+margin: 20px auto;
+}
+.sec3{
+    background-color: #fcc302;
+}
+.firsth{
+    text-align: -webkit-right;
+}
+.col30 button{
+    border-radius: 30px;
+background-color: #00bec9;
+padding: 10px 30px;
+display: block;
+margin: 0 auto 100px auto;
+}
+.black h4{
+    color: #313243;
+}
+.black h5{
+    color: #313243;
+}
+
+.col30 li{
+    display: inline;
+}
+.col30 ul{
+    text-align: center;
+    font-size: 162%;
+    letter-spacing: 3px;
+}
+.sec7{
+    background-image: url(./img/7/Image.png);
+}
+.col33{
+    width: 100%;
+    margin: 100px 0;
+    text-align: center;
+}
+.col33 h4{
+    font-size: 42px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Poppins";
+margin: 20px auto;
+}
+.col33 h5{
+    font-size: 38px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Poppins";
+margin: 0 auto 100px auto;
+}
+.col33 img{
+    margin: 50px 0 0 0;
+}
+.set h4{
+    text-align: left;
+}
+.set h5{
+    font-size: 17px;
+font-weight: 400;
+font-family: "Poppins";
+width: 70%;
+text-align: left;
+margin: 15px 20px 0 0;
+}
+.set h6{
+    margin: 10px 0 0 0;
+    color: blue;
+}
+.last{
+    background-color: #343434;
+}
+.col20{
+    width: 100%;
+    margin: 100px 0 100px 0;
+}
+.col60{
+    width: 100%;
+    margin: 100px 0 100px 0;
+    text-align: end;
+}
+.col20 li{
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-decoration: none;
+  list-style: none;
+}
+.col60 li{
+    font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  list-style: none;
+  
+
+}
+#inli li{
+    display: inline;
+    letter-spacing: 15px;
+}
+.row input{
+    width: 70%;
+    padding: 3%;
+}
+.imgw{
+    width: 29%;
+    text-align: center;
+    background-color: #00bec9;
+}
+@media (min-width:320px){
+    .container{
+        width: 300px;
+    }
+    .text h5{
+        width: 100%;
+    }
+    .mainimg img{
+        width: 100%;
+    }
+    .col30 img{
+        width: 100%;
+    }
+    .firsth{
+        text-align: center;
+    }
+    .col50 h5{
+        width: 100%;
+    }
+    .col5 h1 {
+
+        font-size: 55px;
+    }
+    
+
+}
+
+@media (min-width:567px){
+    .container{
+        width: 500px;
+    }
+    .col5{
+        text-align: center;
+    }
+    .col50{
+        text-align: center;
+        width: 100%;
+    }
+    .col50 h5{
+        width: 100%;
+    }
+    .col30 img{
+        width: 100%;
+    }
+    .firsth{
+        text-align: center;
+    }
+
+}
+
+@media (min-width:768px){
+    .container{
+        width: 700px;
+    }
+    .col5{
+        width: 50%;
+    }
+    .col5 img{
+        width: 98%;
+    
+    }
+    .col50{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .col50 h4{
+        text-align: center;
+    }
+    .col50 h5{
+        text-align: center;
+        width: 100%;
+    }
+    .col50 button{
+        display: block;
+        margin: 0 auto;
+    }
+    .col30{
+        width: 50%;
+    }
+    .col33{
+        width: 33%;
+    }
+    .col20{
+        width: 20%;
+    }
+    .col60{
+        width: 60%;
+    }
+}
+
+@media (min-width:992px){
+    .container{
+        width: 900px;
+    }
+    .mainimg img{
+        width: 100%;
+    }
+    
+    .col5{
+        width: 40%;
+    }
+    .col5 img{
+        width: 89%;
+        margin: 0 0;
+    }
+    .sec2{
+        overflow: hidden;
+    }
+    .col50{
+        width: 50%;
+    }
+    .col30{
+        width: 50%;
+    }
+    .col30 img{
+        display: block;
+        margin: 0 auto;
+    }
+    .col33{
+        width: 30%;
+    }
+    .col20{
+        width: 20%;
+    }
+    .col60{
+        width: 60%;
+    }
+}
+
+@media (min-width:1200px){
+    .container{
+        width: 1100px;
+    }
+    .col5{
+        width: 50%;
+    }
+    .col50{
+        width: 50%;
+    }
+    .col30{
+        width: 30%;
+    }
+    .col33{
+        width: 33%;
+    }
+    .col20{
+        width: 20%;
+    }
+    .col60{
+        width: 60%;
+    }
+}
